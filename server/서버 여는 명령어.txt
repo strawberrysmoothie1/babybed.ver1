@@ -1,0 +1,9 @@
+"C:/Capstone/server/ngrok.exe" config add-authtoken 2vn1iXgkG2iTqowuzeZMb29kHDf_cTJnzSnrh83mWFpAhgbt
+
+
+"C:/Capstone/server/ngrok.exe" http 5000
+
+
+
+
+python3 /home/pi/Desktop/babybed/rpi_ws_sender.py
