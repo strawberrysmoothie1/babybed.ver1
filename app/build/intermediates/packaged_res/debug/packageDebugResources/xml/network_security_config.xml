@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <!-- 개발용 설정: 모든 인증서 신뢰 -->
+    <debug-overrides>
+        <trust-anchors>
+            <!-- 개발 중 시스템 인증서 및 사용자 추가 인증서 모두 신뢰 -->
+            <certificates src="system" />
+            <certificates src="user" />
+        </trust-anchors>
+    </debug-overrides>
+    
+    <!-- 기본 설정: 모든 http 통신 허용 -->
+    <base-config cleartextTrafficPermitted="true">
+        <trust-anchors>
+            <certificates src="system" />
+        </trust-anchors>
+    </base-config>
+</network-security-config> 

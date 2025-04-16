@@ -1,0 +1,234 @@
+[
+    {
+        "merged": "com.example.myapplication.app-debug-5:/layout_activity_addbed.xml.flat",
+        "source": "com.example.myapplication.app-main-7:/layout/activity_addbed.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-5:/drawable_alarm.png.flat",
+        "source": "com.example.myapplication.app-main-7:/drawable/alarm.png"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-5:/drawable_add_button_background.xml.flat",
+        "source": "com.example.myapplication.app-main-7:/drawable/add_button_background.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-5:/drawable_baby_standup.png.flat",
+        "source": "com.example.myapplication.app-main-7:/drawable/baby_standup.png"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-5:/font_hakgyoansim_geurimilgi.ttf.flat",
+        "source": "com.example.myapplication.app-main-7:/font/hakgyoansim_geurimilgi.ttf"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-5:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.example.myapplication.app-main-7:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-5:/drawable_babybed1.png.flat",
+        "source": "com.example.myapplication.app-main-7:/drawable/babybed1.png"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-5:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.myapplication.app-main-7:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-5:/layout_activity_log.xml.flat",
+        "source": "com.example.myapplication.app-main-7:/layout/activity_log.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-5:/drawable_baby_sleep.png.flat",
+        "source": "com.example.myapplication.app-main-7:/drawable/baby_sleep.png"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-5:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.myapplication.app-main-7:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-5:/drawable_log_baby.png.flat",
+        "source": "com.example.myapplication.app-main-7:/drawable/log_baby.png"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-5:/layout_activity_main.xml.flat",
+        "source": "com.example.myapplication.app-main-7:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-5:/font_hakgyoansim.xml.flat",
+        "source": "com.example.myapplication.app-main-7:/font/hakgyoansim.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-5:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.myapplication.app-main-7:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-5:/drawable_baseline_arrow_back_24.xml.flat",
+        "source": "com.example.myapplication.app-main-7:/drawable/baseline_arrow_back_24.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-5:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.myapplication.app-main-7:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-5:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.myapplication.app-main-7:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-5:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.myapplication.app-main-7:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-5:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.myapplication.app-main-7:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-5:/drawable_babybed3.png.flat",
+        "source": "com.example.myapplication.app-main-7:/drawable/babybed3.png"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-5:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.myapplication.app-main-7:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-5:/layout_activity_messages.xml.flat",
+        "source": "com.example.myapplication.app-main-7:/layout/activity_messages.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-5:/drawable_addbed.png.flat",
+        "source": "com.example.myapplication.app-main-7:/drawable/addbed.png"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-5:/layout_dialog_add_bed.xml.flat",
+        "source": "com.example.myapplication.app-main-7:/layout/dialog_add_bed.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-5:/font_my_custom_font.ttf.flat",
+        "source": "com.example.myapplication.app-main-7:/font/my_custom_font.ttf"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-5:/drawable_rounded_button_border.xml.flat",
+        "source": "com.example.myapplication.app-main-7:/drawable/rounded_button_border.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-5:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.example.myapplication.app-main-7:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-5:/menu_menu_main.xml.flat",
+        "source": "com.example.myapplication.app-main-7:/menu/menu_main.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-5:/drawable_bed_button_background.xml.flat",
+        "source": "com.example.myapplication.app-main-7:/drawable/bed_button_background.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-5:/drawable_bg_toy2.png.flat",
+        "source": "com.example.myapplication.app-main-7:/drawable/bg_toy2.png"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-5:/drawable_bg_gradient.jpg.flat",
+        "source": "com.example.myapplication.app-main-7:/drawable/bg_gradient.jpg"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-5:/layout_activity_settings.xml.flat",
+        "source": "com.example.myapplication.app-main-7:/layout/activity_settings.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-5:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.example.myapplication.app-main-7:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-5:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.myapplication.app-main-7:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-5:/drawable_signs.png.flat",
+        "source": "com.example.myapplication.app-main-7:/drawable/signs.png"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-5:/drawable_downarrow.png.flat",
+        "source": "com.example.myapplication.app-main-7:/drawable/downarrow.png"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-5:/menu_menu_account.xml.flat",
+        "source": "com.example.myapplication.app-main-7:/menu/menu_account.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-5:/layout_activity_register.xml.flat",
+        "source": "com.example.myapplication.app-main-7:/layout/activity_register.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-5:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.example.myapplication.app-main-7:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-5:/xml_network_security_config.xml.flat",
+        "source": "com.example.myapplication.app-main-7:/xml/network_security_config.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-5:/font_font.xml.flat",
+        "source": "com.example.myapplication.app-main-7:/font/font.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-5:/drawable_bg_toy.png.flat",
+        "source": "com.example.myapplication.app-main-7:/drawable/bg_toy.png"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-5:/drawable_baby_nomal.png.flat",
+        "source": "com.example.myapplication.app-main-7:/drawable/baby_nomal.png"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-5:/layout_item_bed.xml.flat",
+        "source": "com.example.myapplication.app-main-7:/layout/item_bed.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-5:/drawable_oval_button_background.xml.flat",
+        "source": "com.example.myapplication.app-main-7:/drawable/oval_button_background.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-5:/layout_dialog_bed_requests.xml.flat",
+        "source": "com.example.myapplication.app-main-7:/layout/dialog_bed_requests.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-5:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.myapplication.app-main-7:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-5:/layout_dialog_delete_bed.xml.flat",
+        "source": "com.example.myapplication.app-main-7:/layout/dialog_delete_bed.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-5:/drawable_baby_active.png.flat",
+        "source": "com.example.myapplication.app-main-7:/drawable/baby_active.png"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-5:/drawable_babybed2.png.flat",
+        "source": "com.example.myapplication.app-main-7:/drawable/babybed2.png"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-5:/xml_backup_rules.xml.flat",
+        "source": "com.example.myapplication.app-main-7:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-5:/drawable_setting_dot.png.flat",
+        "source": "com.example.myapplication.app-main-7:/drawable/setting_dot.png"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-5:/drawable_menu_send.png.flat",
+        "source": "com.example.myapplication.app-main-7:/drawable/menu_send.png"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-5:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.myapplication.app-main-7:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-5:/layout_item_request.xml.flat",
+        "source": "com.example.myapplication.app-main-7:/layout/item_request.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-5:/drawable_babybed5.png.flat",
+        "source": "com.example.myapplication.app-main-7:/drawable/babybed5.png"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-5:/drawable_uparrow.png.flat",
+        "source": "com.example.myapplication.app-main-7:/drawable/uparrow.png"
+    }
+]
