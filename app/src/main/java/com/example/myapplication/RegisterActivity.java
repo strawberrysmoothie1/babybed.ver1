@@ -20,6 +20,7 @@ import com.example.myapplication.Login_network.RegisterResponse;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.messaging.FirebaseMessaging;
+import com.example.myapplication.config.ServerConfig;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -35,6 +36,7 @@ public class RegisterActivity extends AppCompatActivity {
     private TextView tvErrorMessage;
     private boolean isIdChecked = false;
     private LoginService loginService;
+    private android.content.SharedPreferences preferences;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -54,7 +56,8 @@ public class RegisterActivity extends AppCompatActivity {
         btnRegisterSubmit = findViewById(R.id.btnRegisterSubmit);
         tvErrorMessage = findViewById(R.id.tvErrorMessage);
 
-        loginService = LoginClient.getClient("http://10.0.2.2:5000/").create(LoginService.class);
+        preferences = getSharedPreferences("AutoLogin", MODE_PRIVATE);
+        loginService = LoginClient.getClient(ServerConfig.getBaseUrl()).create(LoginService.class);
 
         // 아이디 중복확인 버튼 클릭
         btnCheckId.setOnClickListener(new View.OnClickListener() {

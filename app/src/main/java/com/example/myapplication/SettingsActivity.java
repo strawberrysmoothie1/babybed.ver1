@@ -21,6 +21,7 @@ import com.example.myapplication.Login_network.LoginService;
 import com.example.myapplication.Login_network.LogoutRequest;
 import com.example.myapplication.Login_network.LogoutResponse;
 import com.example.myapplication.Login_network.DeleteAccountResponse;
+import com.example.myapplication.config.ServerConfig;
 
 import java.io.IOException;
 import java.util.HashMap;
@@ -51,7 +52,7 @@ public class SettingsActivity extends AppCompatActivity {
 
         // SharedPreferences 및 LoginService 초기화
         preferences = getSharedPreferences("AutoLogin", MODE_PRIVATE);
-        loginService = LoginClient.getClient("http://10.0.2.2:5000/").create(LoginService.class);
+        loginService = LoginClient.getClient(ServerConfig.getBaseUrl()).create(LoginService.class);
 
         // UI 요소 초기화
         tvUserID = findViewById(R.id.tvUserID);

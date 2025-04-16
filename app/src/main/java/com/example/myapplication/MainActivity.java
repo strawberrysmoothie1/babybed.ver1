@@ -17,6 +17,7 @@ import com.example.myapplication.Login_network.LoginClient;
 import com.example.myapplication.Login_network.LoginService;
 import com.example.myapplication.Login_network.LogoutRequest;
 import com.example.myapplication.Login_network.LogoutResponse;
+import com.example.myapplication.config.ServerConfig;
 import com.example.myapplication.model.BedDisplay;
 import com.example.myapplication.model.TempGuardianRequest;
 
@@ -38,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         preferences = getSharedPreferences("AutoLogin", MODE_PRIVATE);
-        loginService = LoginClient.getClient("http://10.0.2.2:5000/").create(LoginService.class);
+        loginService = LoginClient.getClient(ServerConfig.getBaseUrl()).create(LoginService.class);
 
         // 뒤로가기 버튼 설정
         ImageButton btnBack = findViewById(R.id.btnBack);

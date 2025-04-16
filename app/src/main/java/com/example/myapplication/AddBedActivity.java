@@ -28,6 +28,7 @@ import com.example.myapplication.Login_network.LogoutResponse;
 import com.example.myapplication.item.BedAdapter;
 import com.example.myapplication.model.BedCount;
 import com.example.myapplication.model.BedDisplay;
+import com.example.myapplication.config.ServerConfig;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
@@ -66,7 +67,7 @@ public class AddBedActivity extends AppCompatActivity {
         setupMenuButton();
 
         preferences = getSharedPreferences("AutoLogin", MODE_PRIVATE);
-        loginService = LoginClient.getClient("http://10.0.2.2:5000/").create(LoginService.class);
+        loginService = LoginClient.getClient(ServerConfig.getBaseUrl()).create(LoginService.class);
 
         Toolbar toolbar = findViewById(R.id.toolbarAddBed);
         setSupportActionBar(toolbar);

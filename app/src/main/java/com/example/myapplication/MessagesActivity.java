@@ -26,6 +26,7 @@ import com.example.myapplication.Login_network.RejectRequestResponse;
 import com.example.myapplication.item.MessageAdapter;
 import com.example.myapplication.model.Message;
 import com.example.myapplication.model.TempGuardianRequest;
+import com.example.myapplication.config.ServerConfig;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -60,7 +61,7 @@ public class MessagesActivity extends AppCompatActivity implements MessageAdapte
         try {
             // SharedPreferences 및 Retrofit 서비스 초기화 - 가장 먼저 초기화
             preferences = getSharedPreferences("AutoLogin", MODE_PRIVATE);
-            loginService = LoginClient.getClient("http://10.0.2.2:5000/").create(LoginService.class);
+            loginService = LoginClient.getClient(ServerConfig.getBaseUrl()).create(LoginService.class);
             
             // 사용자 ID 로깅
             String userId = preferences.getString("userID", "");
@@ -123,7 +124,7 @@ public class MessagesActivity extends AppCompatActivity implements MessageAdapte
             // API 호출 URL 및 매개변수 로깅 (디버깅용)
             Map<String, String> params = Collections.singletonMap("gdID", userId);
             Log.d(TAG, "API 호출 시작: getPendingTempGuardianRequests - 사용자 ID: " + userId);
-            Log.d(TAG, "요청 URL: " + LoginClient.getClient("http://10.0.2.2:5000/").baseUrl().toString() + "api/getPendingTempGuardianRequests");
+            Log.d(TAG, "요청 URL: " + LoginClient.getClient(ServerConfig.getBaseUrl()).baseUrl().toString() + "api/getPendingTempGuardianRequests");
             Log.d(TAG, "요청 매개변수: " + params.toString());
             
             // API 호출 - 디버깅을 위한 자세한 로그 추가
