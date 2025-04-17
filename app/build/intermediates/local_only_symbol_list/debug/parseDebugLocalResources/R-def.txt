@@ -73,6 +73,7 @@ id layout_log
 id layout_main
 id layout_register
 id llRequestsContainer
+id loadingIndicator
 id logoBabyStatus
 id menu_account
 id menu_apply_request
@@ -81,6 +82,8 @@ id menu_set_permission
 id miniCalendarView
 id recyclerViewBeds
 id recyclerViewMessages
+id statusText
+id streamLayout
 id switchNightMode
 id switchNotification
 id toolbarAddBed
@@ -100,12 +103,14 @@ id tvRequestInfo
 id tvRoleIndicator
 id tvUserID
 id txtTitle
+id videoView
 layout activity_addbed
 layout activity_log
 layout activity_main
 layout activity_messages
 layout activity_register
 layout activity_settings
+layout activity_stream
 layout dialog_add_bed
 layout dialog_bed_requests
 layout dialog_delete_bed

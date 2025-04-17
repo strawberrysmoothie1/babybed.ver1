@@ -7,3 +7,37 @@
 
 
 python3 /home/pi/Desktop/babybed/rpi_ws_sender.py
+
+
+
+
+
+
+import socket
+import struct
+import cv2
+
+HOST = '192.168.0.76'  # 서버 IP 주소
+PORT = 9999            # 서버의 TCP 수신 포트
+
+client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+client_socket.connect((HOST, PORT))
+print("[라즈베리] 서버에 연결됨 (TCP)!")
+
+capture = cv2.VideoCapture(0)  # 카메라 사용
+
+while True:
+    ret, frame = capture.read()
+    if not ret:
+        continue
+
+    # 프레임 JPEG 인코딩
+    _, buffer = cv2.imencode('.jpg', frame)
+    data = buffer.tobytes()
+
+    # 전송: 먼저 길이(4바이트), 그 다음 실제 프레임
+    length = struct.pack(">L", len(data))
+    client_socket.sendall(length + data)
+
+    # 테스트용: 초당 60프레임으로 제한
+    cv2.waitKey(17)

@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Capstone\app\src\main\AndroidManifest.xml:2:1-55:12
-INJECTED from C:\Capstone\app\src\main\AndroidManifest.xml:2:1-55:12
-INJECTED from C:\Capstone\app\src\main\AndroidManifest.xml:2:1-55:12
-INJECTED from C:\Capstone\app\src\main\AndroidManifest.xml:2:1-55:12
+ADDED from C:\Capstone\app\src\main\AndroidManifest.xml:2:1-60:12
+INJECTED from C:\Capstone\app\src\main\AndroidManifest.xml:2:1-60:12
+INJECTED from C:\Capstone\app\src\main\AndroidManifest.xml:2:1-60:12
+INJECTED from C:\Capstone\app\src\main\AndroidManifest.xml:2:1-60:12
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\user\.gradle\caches\8.10.2\transforms\c98bc3ab8d4056b0d5547627a5123f8b\transformed\material-1.12.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.firebase:firebase-messaging:24.1.0] C:\Users\user\.gradle\caches\8.10.2\transforms\dfcba95ad4d8846296b11ca7a6fb39fa\transformed\firebase-messaging-24.1.0\AndroidManifest.xml:17:1-66:12
 MERGED from [com.google.firebase:firebase-installations:18.0.0] C:\Users\user\.gradle\caches\8.10.2\transforms\6322f2b5a736fe2aae4e426a1733b62f\transformed\firebase-installations-18.0.0\AndroidManifest.xml:2:1-24:12
@@ -83,8 +83,8 @@ MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.9] C:\Us
 	android:name
 		ADDED from C:\Capstone\app\src\main\AndroidManifest.xml:6:22-64
 application
-ADDED from C:\Capstone\app\src\main\AndroidManifest.xml:9:5-54:19
-INJECTED from C:\Capstone\app\src\main\AndroidManifest.xml:9:5-54:19
+ADDED from C:\Capstone\app\src\main\AndroidManifest.xml:9:5-59:19
+INJECTED from C:\Capstone\app\src\main\AndroidManifest.xml:9:5-59:19
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\user\.gradle\caches\8.10.2\transforms\c98bc3ab8d4056b0d5547627a5123f8b\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\user\.gradle\caches\8.10.2\transforms\c98bc3ab8d4056b0d5547627a5123f8b\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.firebase:firebase-messaging:24.1.0] C:\Users\user\.gradle\caches\8.10.2\transforms\dfcba95ad4d8846296b11ca7a6fb39fa\transformed\firebase-messaging-24.1.0\AndroidManifest.xml:28:5-64:19
@@ -189,6 +189,14 @@ ADDED from C:\Capstone\app\src\main\AndroidManifest.xml:49:9-52:58
 		ADDED from C:\Capstone\app\src\main\AndroidManifest.xml:51:13-37
 	android:name
 		ADDED from C:\Capstone\app\src\main\AndroidManifest.xml:50:13-45
+activity#com.example.myapplication.StreamActivity
+ADDED from C:\Capstone\app\src\main\AndroidManifest.xml:55:9-57:66
+	android:screenOrientation
+		ADDED from C:\Capstone\app\src\main\AndroidManifest.xml:56:13-49
+	android:theme
+		ADDED from C:\Capstone\app\src\main\AndroidManifest.xml:57:13-63
+	android:name
+		ADDED from C:\Capstone\app\src\main\AndroidManifest.xml:55:19-49
 uses-sdk
 INJECTED from C:\Capstone\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Capstone\app\src\main\AndroidManifest.xml

@@ -51,5 +51,10 @@
             android:exported="false"
             android:parentActivityName=".MainActivity" />
 
+        <!-- StreamActivity -->
+        <activity android:name=".StreamActivity" 
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+
     </application>
 </manifest>

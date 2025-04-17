@@ -82,9 +82,10 @@ public class MainActivity extends AppCompatActivity {
 
         // 실시간 영상 버튼
         Button btnRealTime = findViewById(R.id.btnRealTime);
-        btnRealTime.setOnClickListener(view ->
-                Toast.makeText(this, "실시간 영상 준비 중입니다.", Toast.LENGTH_SHORT).show()
-        );
+        btnRealTime.setOnClickListener(view -> {
+            Intent streamIntent = new Intent(MainActivity.this, StreamActivity.class);
+            startActivity(streamIntent);
+        });
 
         // 이벤트 로그 버튼
         Button btnEventLog = findViewById(R.id.btnEventLog);

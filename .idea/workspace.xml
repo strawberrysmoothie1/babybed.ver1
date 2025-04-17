@@ -35,9 +35,9 @@
           <theme>@style/Theme.MyApplication</theme>
         </config>
       </layout>
-      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_video_stream.xml">
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_stream.xml">
         <config>
-          <theme>@style/Theme.MyApplication</theme>
+          <theme>@style/Theme.AppCompat.NoActionBar</theme>
         </config>
       </layout>
       <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/dialog_add_bed.xml">
@@ -46,11 +46,6 @@
         </config>
       </layout>
       <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/item_bed.xml">
-        <config>
-          <theme>@style/Theme.MyApplication</theme>
-        </config>
-      </layout>
-      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/item_message.xml">
         <config>
           <theme>@style/Theme.MyApplication</theme>
         </config>
@@ -85,7 +80,7 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[DeviceId(pluginId=PhysicalDevice, isTemplate=false, identifier=serial=R3CMA0AKG0W)]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[DeviceId(pluginId=LocalEmulator, isTemplate=false, identifier=path=C:\Users\user\.android\avd\Pixel_6_Pro_API_30.avd)]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -142,15 +137,15 @@
   <component name="Git.Stage.Ui.Settings">
     <option name="ignoredFilesShown" value="true" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {}
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/strawberrysmoothie1/babybed.ver1.git",
-    "accountId": "6a7123ae-fca2-497f-85d9-d3a3e2932618"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {}
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/strawberrysmoothie1/babybed.ver1.git&quot;,
+    &quot;accountId&quot;: &quot;6a7123ae-fca2-497f-85d9-d3a3e2932618&quot;
   }
-}]]></component>
+}</component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -162,31 +157,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Android App.app.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "RunOnceActivity.readMode.enableVisualFormatting": "true",
-    "cf.first.check.clang-format": "false",
-    "cidr.known.project.marker": "true",
-    "com.google.services.firebase.aqiPopupShown": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Capstone",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.17",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "configurable.group.other"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Android App.app.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;com.google.services.firebase.aqiPopupShown&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Capstone&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.17&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.other&quot;
   },
-  "keyToStringList": {
-    "GitStage.ChangesTree.GroupingKeys": [
-      "directory",
-      "module",
-      "repository"
+  &quot;keyToStringList&quot;: {
+    &quot;GitStage.ChangesTree.GroupingKeys&quot;: [
+      &quot;directory&quot;,
+      &quot;module&quot;,
+      &quot;repository&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
       <module name="MyApplication.app" />
@@ -341,7 +336,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744771893656</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="20250426">
+      <option name="closed" value="true" />
+      <created>1744867985503</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1744867985503</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -367,12 +370,12 @@
       <map>
         <entry key="com.example.myapplication">
           <value>
-            <CheckInfo lastCheckTimestamp="1744710602888" />
+            <CheckInfo lastCheckTimestamp="1744802118080" />
           </value>
         </entry>
         <entry key="com.example.myapplication.test">
           <value>
-            <CheckInfo lastCheckTimestamp="1744710602888" />
+            <CheckInfo lastCheckTimestamp="1744802118058" />
           </value>
         </entry>
       </map>

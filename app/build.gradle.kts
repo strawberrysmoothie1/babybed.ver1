@@ -16,6 +16,7 @@ android {
         targetSdk = 34
         versionCode = 1
         versionName = "1.0"
+
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
 
@@ -54,6 +55,9 @@ dependencies {
 
     implementation("com.squareup.retrofit2:retrofit:2.9.0")
     implementation("com.squareup.retrofit2:converter-gson:2.9.0")
+
+    // Socket.IO 클라이언트 라이브러리 추가
+    implementation("io.socket:socket.io-client:2.0.1")
 
     // Testing
     testImplementation(libs.junit)

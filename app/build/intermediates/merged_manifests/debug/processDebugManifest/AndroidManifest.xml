@@ -71,6 +71,12 @@
             android:exported="false"
             android:parentActivityName="com.example.myapplication.MainActivity" />
 
+        <!-- StreamActivity -->
+        <activity
+            android:name="com.example.myapplication.StreamActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+
         <receiver
             android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
             android:exported="true"

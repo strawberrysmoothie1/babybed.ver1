@@ -6,7 +6,7 @@ from firebase_admin import credentials, messaging
 import threading
 
 # Firebase Admin 초기화 (서비스 계정 키 파일을 사용하여 Firebase와 통신)
-cred = credentials.Certificate("c:/Capstone/server/babybed-b6356-firebase-adminsdk-fbsvc-d40dac7ac1.json")
+cred = credentials.Certificate("c:/Capstone/server/babybed-b6356-firebase-adminsdk-fbsvc-e8e08e3e71.json")
 firebase_admin.initialize_app(cred)
 
 app = Flask(__name__)

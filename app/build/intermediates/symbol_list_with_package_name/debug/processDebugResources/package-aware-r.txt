@@ -3465,6 +3465,7 @@ id linear
 id listMode
 id list_item
 id llRequestsContainer
+id loadingIndicator
 id logoBabyStatus
 id m3_side_sheet
 id marquee
@@ -3655,7 +3656,9 @@ id startToEnd
 id startVertical
 id staticLayout
 id staticPostLayout
+id statusText
 id stop
+id streamLayout
 id stretch
 id submenuarrow
 id submit_area
@@ -3735,6 +3738,7 @@ id up
 id useLogo
 id vertical
 id vertical_only
+id videoView
 id view_offset_helper
 id view_transition
 id view_tree_lifecycle_owner
@@ -3874,6 +3878,7 @@ layout activity_main
 layout activity_messages
 layout activity_register
 layout activity_settings
+layout activity_stream
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
